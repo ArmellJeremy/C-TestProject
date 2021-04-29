@@ -1,0 +1,9 @@
+C:\Users\armel\source\repos\S3ClientSolution\TestProject\TestProject\bin\Debug\netstandard2.0\TestProject.deps.json
+C:\Users\armel\source\repos\S3ClientSolution\TestProject\TestProject\bin\Debug\netstandard2.0\TestProject.dll
+C:\Users\armel\source\repos\S3ClientSolution\TestProject\TestProject\bin\Debug\netstandard2.0\TestProject.pdb
+C:\Users\armel\source\repos\S3ClientSolution\TestProject\TestProject\obj\Debug\netstandard2.0\TestProject.csprojAssemblyReference.cache
+C:\Users\armel\source\repos\S3ClientSolution\TestProject\TestProject\obj\Debug\netstandard2.0\TestProject.AssemblyInfoInputs.cache
+C:\Users\armel\source\repos\S3ClientSolution\TestProject\TestProject\obj\Debug\netstandard2.0\TestProject.AssemblyInfo.cs
+C:\Users\armel\source\repos\S3ClientSolution\TestProject\TestProject\obj\Debug\netstandard2.0\TestProject.csproj.CoreCompileInputs.cache
+C:\Users\armel\source\repos\S3ClientSolution\TestProject\TestProject\obj\Debug\netstandard2.0\TestProject.dll
+C:\Users\armel\source\repos\S3ClientSolution\TestProject\TestProject\obj\Debug\netstandard2.0\TestProject.pdb
