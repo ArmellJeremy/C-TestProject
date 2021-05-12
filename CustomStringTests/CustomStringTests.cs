@@ -2,8 +2,12 @@
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 using System;
 using System.Collections.Generic;
+using System.Net;
 using System.Text;
 using TestProject;
+using System.Threading;
+using System.Threading.Tasks;
+using System.Net.Http;
 
 namespace CustomStringTests
 {
@@ -70,5 +74,24 @@ namespace CustomStringTests
             customString.setString("this is a test");
             customString.removeEveryNthCharacter(-5, true);
         }
+
+
+        //Itegration Test
+        [TestMethod()]
+        public void googlePingTest()
+        {
+
+            var customString = new CustomString();
+            customString.setString("hatbtapb:a/b/awbwawb.agboaobgalbea.bcaobma");
+            //HttpClient client = new HttpClient(); //Opens client
+            Console.WriteLine(customString.getString()); 
+            HttpWebRequest client = (HttpWebRequest)WebRequest.Create(customString.removeEveryNthCharacter(2, false));
+          
+
+            //var result = client.GetAsync(customString.getString());
+            HttpWebResponse result = (HttpWebResponse)client.GetResponse();
+         
+            Assert.AreEqual(result.StatusCode, HttpStatusCode.OK);
+        } 
     }
 }
